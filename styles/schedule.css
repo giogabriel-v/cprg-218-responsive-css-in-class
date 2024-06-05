@@ -3,7 +3,8 @@
     align-items: center;
     text-align: center;
     padding-top: 20px;
-    background-color: rgb(178, 178, 246);
+    background-color: rgb(140, 140, 243);
+    
     
 }
 
@@ -12,7 +13,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    background-color: rgb(178, 178, 246);
+    /* background-color: rgb(178, 178, 246); */
+    background-image: linear-gradient(rgb(140, 140, 243), rgb(244, 182, 238));
     align-items: center;
     gap: 12px;
     height: 50vh;
@@ -28,6 +30,7 @@
   margin-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
+  
   
 
   
