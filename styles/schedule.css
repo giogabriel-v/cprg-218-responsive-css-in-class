@@ -1,15 +1,40 @@
 .schedule {
-
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(178, 178, 246);
+    
 }
 
-.schedule-grid {
 
+.schedule-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: rgb(178, 178, 246);
+    align-items: center;
+    gap: 12px;
+    height: 50vh;
+    
 }
 
 .time-slot {
+  display: grid;
+  justify-content: center;
+  background-color: white;
+  /* justify-content: center space-between; */
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+
   
 }
 
 .time-slot h3 {
-  
+    display: grid;
+    justify-content: center;
+    background-color: white;
 }
