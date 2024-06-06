@@ -1,20 +1,53 @@
-.speakers {
- 
+.speakers h2{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ margin-top: 20px;
+ justify-content: center;
 }
 
 .speakers-grid {
-  
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
 .speaker-card {
-  
+  background-color: rgb(234, 234, 234);
+  margin-top: 20px;
 }
 
 .speaker-card img {
-  
+  width: 200px;
+  border-radius: 100px;
+  padding: 20px;
 }
 
 .speaker-card h3,
 .speaker-card p {
+    text-align: center;
+    padding-bottom: 20px;
   
+}
+
+/* this is for tablet - this will have 2 columns*/
+@media screen and (min-width: 768px) and (max-width:1199px) {
+    .speakers-grid {
+        flex: 1 1 calc(50%-20px);
+    }
+}
+ 
+/* this is for phone - this will have 1 column  */
+@media screen and (min-width: 768px) and (max-width:1199px) {
+    .speakers-grid {
+        display: flex;
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+ 
+/* this is for dekstop - this will have 4 columns */
+@media (min-width: 1200px) {
+    .speakers-grid {
+        flex: 1 1 calc(33% - 20px);
+    }
 }
