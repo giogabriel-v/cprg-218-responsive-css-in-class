@@ -2,42 +2,33 @@
     display: grid;
     align-items: center;
     text-align: center;
-    padding-top: 20px;
-    background-color: rgb(140, 140, 243);
-    
-    
+    padding: 20px;
+    background-image: linear-gradient(rgb(140, 140, 243), rgb(244, 182, 238));
 }
 
 
 .schedule-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    /* background-color: rgb(178, 178, 246); */
-    background-image: linear-gradient(rgb(140, 140, 243), rgb(244, 182, 238));
+    grid-template-rows: repeat(4, 1fr);
+    background-color: transparent;
     align-items: center;
-    gap: 12px;
     height: 50vh;
-    
 }
 
 .time-slot {
-  display: grid;
-  justify-content: center;
-  background-color: white;
-  /* justify-content: center space-between; */
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  
-  
-
-  
+    display: grid;
+    justify-content: center;
+    justify-self: center;
+    width: 70%;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
 }
 
 .time-slot h3 {
     display: grid;
     justify-content: center;
     background-color: white;
+    color: rgb(66, 4, 66);
 }
