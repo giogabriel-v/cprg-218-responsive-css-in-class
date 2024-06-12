@@ -1,11 +1,30 @@
 .hero {
- 
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(172, 199, 248), rgb(225, 179, 255));
+    flex: wrap;
 }
+   
 
 .hero-content {
- 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+ padding: 200px;
+ font-size: 30px;
 }
 
 .cta-button {
-  
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: indigo;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
 }
+
