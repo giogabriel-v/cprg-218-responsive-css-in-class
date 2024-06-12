@@ -1,33 +1,25 @@
-.footer {background-color: black;
+footer {
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 25px;
-    border: 25px navy;
-    color: white;
-    text-align: right;
-    margin: 25px
-    
- 
 }
 
-.footer-content {  
- 
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-.social-media {  
- display: flex;
- 
-}
-
-.social-media img { 
+.social-media img {
     width: 40px;
     height: auto;
-    
- 
- 
-}
-
-.footer-info {
-  
+    margin: 0 20px;
 }
