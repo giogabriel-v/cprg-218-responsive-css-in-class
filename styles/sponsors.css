@@ -1,15 +1,34 @@
-.sponsors {
-  
-}
+.sponsors {}
 
 .sponsors-grid {
- 
+    display: flex;
+    flex-direction: row;  
+    max-width: 100%;
+    gap: 24px;
 }
 
 .sponsor-card {
-  
+    width: 200px;
+    height: 200px;
 }
 
 .sponsor-card img {
-  
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
 }
+
+@media screen and (max-width:768px) {
+        .sponsors-grid {
+            display: grid;
+         grid-template-columns: repeat(2, 1fr);
+       gap: 10px;
+        }
+    }
+    
+    #sponsors.sponsors h2 {
+    display: flex;
+    justify-content: center;
+}
+    
+    
